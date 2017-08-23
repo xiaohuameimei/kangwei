@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
+    <title>产品中心</title>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" class="pic"><img src="images/logo.png"></a>
+            <div class="text">
+                <h3><a href="index.html">康威生物工程</a></h3>
+                <p><a href="index.html">kangwei Bioengineering</a></p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li class="current"><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                    <li><img src="images/banner01.jpg"></li>
+                    <li><img src="images/banner02.jpg"></li>
+                    <li><img src="images/banner03.jpg"></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <ul class="hd">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+    </script>
+</div>
+
+<div class="middle">
+    <div class="container">
+        <div class="title">
+            <h3>产品中心</h3>
+        </div>
+        <div class="sidebar">
+            <h3>产品中心</h3>
+            <ul>
+                <li class="current"><a href="about_us.html">生化试剂</a></li>
+                <li><a href="#">分子生物学</a></li>
+                <li><a href="#">蛋白质科学</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="pro_list">
+                <ul>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_01.jpg"></a>
+                        <div class="text">
+                            <h3><a href="pro_details.html">Mg-MK 磁珠法试剂盒</a></h3>
+                            <p>柱式法的后继者</p>
+                            <p>得率高</p>
+                            <p>纯度高</p>
+                        </div>
+                    </li>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_02.jpg"></a>
+                        <div class="text">
+                            <h3><a href="pro_details.html">DNA 合成</a></h3>
+                            <p>世界上最大的化学合成DNA专业公司之一；</p>
+                            <p>实力雄厚。合成范围广泛100%质谱检测</p>
+                        </div>
+                    </li>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_01.jpg"></a>
+                        <div class="text">
+                            <h3><a href="product_details.html">Mg-MK 磁珠法试剂盒</a></h3>
+                            <p>柱式法的后继者</p>
+                            <p>得率高</p>
+                            <p>纯度高</p>
+                        </div>
+                    </li>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_03.jpg"></a>
+                        <div class="text">
+                            <h3><a href="pro_details.html">近万种抗体</a></h3>
+                            <p>体验精品尊享品牌</p>
+                            <p>BBIAB近万抗体</p>
+                            <p>助您科研梦</p>
+                        </div>
+                    </li>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_04.jpg"></a>
+                        <div class="text">
+                            <h3><a href="pro_details.html">全新包装生化试剂</a></h3>
+                            <p>提供数千种生化试剂质量稳定，价格低廉常备现货</p>
+
+                        </div>
+                    </li>
+                    <li class="rounded">
+                        <a href="pro_details.html" class="pic"><img src="images/pro_02.jpg"></a>
+                        <div class="text">
+                            <h3><a href="pro_details.html">DNA 合成</a></h3>
+                            <p>世界上最大的化学合成DNA专业公司之一；</p>
+                            <p>实力雄厚。合成范围广泛100%质谱检测</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="page">
+                <ul>
+                    <li><a href="#">上一页</a></li>
+                    <li class="current"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><span>·&nbsp;·&nbsp;·</span></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><img src="images/index_07.jpg"></a></li>
+                <li><a href="#"><img src="images/index_08.jpg"></a></li>
+                <li><a href="#"><img src="images/index_09.jpg"></a></li>
+                <li><a href="#"><img src="images/index_10.jpg"></a></li>
+            </ul>
+            <p>康威生物科技（上海）股份有限公司 版权所有 </p>
+            <p>沪ICP备07025263 kangwei Bioengineering  (Shanghai) Co., Ltd.</p>
+        </div>
+    </div>
+</div>
+
+    <!--[if lt IE 10]>
+        <script type="text/javascript" src="js/PIE.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(function() {
+            if (window.PIE) {
+                $('.rounded').each(function() {
+                PIE.attach(this);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

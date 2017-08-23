@@ -1,0 +1,138 @@
+.middle {
+    overflow:hidden;
+    margin-bottom:170px;
+}
+.middle .title h3 {
+    font-size: 47.5px;
+    color:#8f9299;
+    font-weight: normal;
+    text-align: center;
+    margin: 19px 0 35px;
+}
+.middle .sidebar {
+    width:280px;
+    float: left;
+}
+.middle .sidebar h3 {
+    padding: 11px 0 8px;
+    color:#8f9299;
+    font-size:20px;
+    border-left:6px solid #e03c2d;
+    width: 188px;
+    text-align:center;
+    margin-bottom:14px;
+}
+.middle .sidebar ul li {
+    width:196px;
+    border:2px solid #8f9299;
+    background:#8f9299;
+    margin-bottom: 30px;
+}
+.middle .sidebar ul li a {
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    font-weight:bolder;
+    line-height:42px;
+}
+.middle .sidebar ul li:hover {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar ul li:hover a {
+    color:#e03c2d;
+}
+.middle .sidebar .current {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar .current a{
+    color:#e03c2d;
+}
+.middle .right {
+    float: left;
+    width:920px;
+}
+.middle .list li {
+    overflow:hidden;
+    width:722px;
+    box-shadow:0px 1px 7px #bbb;
+    margin-bottom:65px;
+}
+.middle .list li img {
+    float: left;
+}
+.middle .list .details {
+    float: left;
+    overflow:hidden;
+    padding:0 23px;
+    width:455px;
+    background:#fff;
+    height: 317px;
+}
+.middle .list .details span {
+    padding: 9.5px 17px;
+    background:#e03c2d;
+    font-size:14px;
+    display: block;
+    float: right;
+    color:#fff;
+}
+.middle .list .details h3 a{
+    font-size:24px;
+    color:#283140;
+    margin:40px 0 14px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #717b8c;
+    width:324px;
+}
+.middle .list .details p {
+    width:370px;
+    color:#7d7d87;
+    font-size:14px;
+    line-height:25px;
+    height: 170px;
+}
+.middle .list .details .more {
+    text-align: right;
+    color:#e03c2d;
+    font-size:18px;
+}
+.middle .page {
+    display: block;
+
+}
+.middle .page ul {
+    overflow:hidden;
+    margin-left: 70px;
+}
+.middle .page ul li {
+    float: left;
+    margin:0 15px;
+}
+.middle .page ul li a {
+    padding: 9px 13px;
+    font-size:14px;
+    background:#e03c2d;
+    color:#fff;
+}
+.middle .page ul li span {
+    padding: 9px 13px;
+    font-size:14px;
+    display: block;
+    color:#e03c2d;
+}
+.middle .page ul li:first-child a {
+    padding: 8.25px 21px;
+    font-size:14.5px;
+}
+.middle .page ul li:last-child a {
+    padding: 8px 21px;
+    font-size:14.5px;
+}
+.middle .page ul li:hover a {
+    background:#0073db;
+}
+.middle .page ul .current a {
+    background:#0073db;
+}

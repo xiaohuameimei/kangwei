@@ -1,0 +1,77 @@
+.middle {
+    overflow:hidden;
+    margin-bottom:185px;
+}
+.middle .title h3 {
+    font-size: 47.5px;
+    color:#8f9299;
+    font-weight: normal;
+    text-align: center;
+    margin: 19px 0 35px;
+}
+.middle .sidebar {
+    width:280px;
+    float: left;
+}
+.middle .sidebar h3 {
+    padding: 11px 0 8px;
+    color:#8f9299;
+    font-size:20px;
+    border-left:6px solid #e03c2d;
+    width: 188px;
+    text-align:center;
+    margin-bottom:14px;
+}
+.middle .sidebar ul li {
+    width:196px;
+    border:2px solid #8f9299;
+    background:#8f9299;
+    margin-bottom: 30px;
+}
+.middle .sidebar ul li a {
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    font-weight:bolder;
+    line-height:42px;
+}
+.middle .sidebar ul li:hover {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar ul li:hover a {
+    color:#e03c2d;
+}
+.middle .sidebar .current {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar .current a{
+    color:#e03c2d;
+}
+.middle .right {
+    float: right;
+    overflow:hidden;
+    width:920px;
+}
+.middle .right .text {
+    float: left;
+    width:590px;
+}
+.middle .right .pic {
+    float: left;
+    margin-left:58px;
+}
+.middle .text h3 {
+    font-size:20px;
+    margin-bottom:10px;
+}
+.middle .text h4 {
+    font-size:14px;
+    margin-top:20px;
+    line-height:25px;
+}
+.middle .text p {
+    font-size:12px;
+    line-height:20px;
+}

@@ -1,0 +1,82 @@
+.middle .container{
+    background: #fffaf1;
+    padding-bottom:60px;
+}
+.middle .title h3{
+    font-size: 47.5px;
+    text-align: center;
+    color: #8f9299;
+    font-weight: normal;
+    margin: 60px 0;
+}
+.middle .news ul {
+    overflow: hidden;
+}
+.middle .news ul li {
+    width: 275px;
+    float: left;
+    margin:0 62.5px;
+}
+.middle .news ul li p {
+    font-size:14px;
+    color:#8f9299;
+    line-height: 27px;
+}
+.middle .news ul li:first-child h3 a{
+    font-size:30px;
+    color:#659e21;
+    font-weight:normal;
+    text-align: center;
+    margin:28px 0 14px;
+}
+.middle .news ul li:first-child+li h3 a{
+    font-size:30px;
+    color:#0073db;
+    font-weight:normal;
+    text-align: center;
+    margin:28px 0 14px;
+}
+.middle .news ul li h3 a{
+    font-size:30px;
+    color:#e03c2d;
+    font-weight:normal;
+    text-align: center;
+    margin:28px 0 14px;
+}
+.middle .more {
+    width:210px;
+    line-height:48px;
+    text-align:center;
+    margin:0 auto;
+    font-size:20px;
+    color:#fff;
+    background:#e03c2d;
+    margin-top: 57px;
+}
+.middle .product ul {
+    overflow: hidden;
+}
+.middle .product ul li {
+    width: 341px;
+    float: left;
+    margin:0 29.5px;
+}
+.middle .product li img {
+    border-bottom: 2px solid #166d58;
+    padding-bottom: 20px;
+}
+.middle .product ul li p {
+    font-size:14px;
+    color:#8f9299;
+    line-height: 27px;
+}
+.middle .product ul li h3 a{
+    font-size:30px;
+    color:#283140;
+    font-weight:normal;
+    text-align: center;
+    margin:18px 0 12px;
+}
+.middle .product ul li:hover h3 a{
+    color:#0073db;
+}

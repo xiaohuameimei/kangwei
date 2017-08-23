@@ -1,0 +1,132 @@
+.middle {
+    overflow:hidden;
+    margin-bottom:22px;
+}
+.middle .title h3 {
+    font-size: 47.5px;
+    color:#8f9299;
+    font-weight: normal;
+    text-align: center;
+    margin: 19px 0 35px;
+}
+.middle .sidebar {
+    width:280px;
+    float: left;
+}
+.middle .sidebar h3 {
+    padding: 11px 0 8px;
+    color:#8f9299;
+    font-size:20px;
+    border-left:6px solid #e03c2d;
+    width: 188px;
+    text-align:center;
+    margin-bottom:14px;
+}
+.middle .sidebar ul li {
+    width:196px;
+    border:2px solid #8f9299;
+    background:#8f9299;
+    margin-bottom: 30px;
+}
+.middle .sidebar ul li a {
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    font-weight:bolder;
+    line-height:42px;
+}
+.middle .sidebar ul li:hover {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar ul li:hover a {
+    color:#e03c2d;
+}
+.middle .sidebar .current {
+    background:transparent;
+    border-color: #e03c2d;
+}
+.middle .sidebar .current a{
+    color:#e03c2d;
+}
+.middle .right {
+    float: right;
+    padding-left: 32px;
+    width:866px;
+}
+.middle .right .pro_list ul {
+    overflow:hidden;
+}
+.middle .right .pro_list ul li{
+    float: left;
+    margin-left:25px;
+    margin-bottom:25px;
+    margin-right: 3px;
+    margin-top: 2px;
+    box-shadow:0px 3px 7px #bbb;
+}
+.middle .right .pro_list ul li .pic {
+    float: left;
+    border-right: 2px solid #0877dc;
+    height: 152px;
+}
+.middle .right .pro_list ul li .text {
+    float: left;
+    padding-left:15px;
+    padding-top: 12px;
+    width:179px;
+    height: 140px;
+    background:#fff;
+}
+.middle .right .pro_list .text h3{
+    font-size:14.5px;
+    color:#676767;
+    margin-bottom:5px;
+}
+.middle .right .pro_list .text p{
+    font-size:12px;
+    color:#a2a2a2;
+    line-height:20px;
+    width:138px;
+}
+.middle .right .pro_list ul li:hover .pic{
+    border-color:#d93e32;
+}
+.middle .page {
+    display: block;
+    margin-top:90px;
+}
+.middle .page ul {
+    overflow:hidden;
+    margin-left: 70px;
+}
+.middle .page ul li {
+    float: left;
+    margin:0 15px;
+}
+.middle .page ul li a {
+    padding: 9px 13px;
+    font-size:14px;
+    background:#e03c2d;
+    color:#fff;
+}
+.middle .page ul li span {
+    padding: 9px 13px;
+    font-size:14px;
+    display: block;
+    color:#e03c2d;
+}
+.middle .page ul li:first-child a {
+    padding: 8.25px 21px;
+    font-size:14.5px;
+}
+.middle .page ul li:last-child a {
+    padding: 8px 21px;
+    font-size:14.5px;
+}
+.middle .page ul li:hover a {
+    background:#0073db;
+}
+.middle .page ul .current a {
+    background:#0073db;
+}

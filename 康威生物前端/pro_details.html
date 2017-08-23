@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/pro_details.css">
+    <title>产品详情</title>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" class="pic"><img src="images/logo.png"></a>
+            <div class="text">
+                <h3><a href="index.html">康威生物工程</a></h3>
+                <p><a href="index.html">kangwei Bioengineering</a></p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li class="current"><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                    <li><img src="images/banner01.jpg"></li>
+                    <li><img src="images/banner02.jpg"></li>
+                    <li><img src="images/banner03.jpg"></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <ul class="hd">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+    </script>
+</div>
+
+<div class="middle">
+    <div class="container">
+        <div class="title">
+            <h3>产品详情</h3>
+        </div>
+        <div class="sidebar">
+            <h3>产品中心</h3>
+            <ul>
+                <li class="current"><a href="about_us.html">生化试剂</a></li>
+                <li><a href="#">分子生物学</a></li>
+                <li><a href="#">蛋白质科学</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="text">
+                <h3>柱式法的后继者，完美的新一代核酸提取与纯化试剂盒</h3>
+                <p>磁珠法DNA提取及纯化试剂盒是采用生物纳米磁珠与目标DNA杂交结合的方法，从各种生物材料中获取高纯度DNA。磁珠法DNA提取及纯化试剂盒应用广泛，操作简单方便。可以与核酸自动提取仪结合实现核酸自动化提取。</p>
+                <h4>使用Mag-MK磁珠法核酸提取与纯化试剂盒，您可以</h4>
+                <p>不受DNA片段长度的限制，用于大片段DNA提取或纯化时有较高的回收率</p>
+                <p>磁珠代替硅胶膜吸附柱，吸附效率高，吸附速度快，核酸损失少，对于珍贵的微量样品，磁珠法微量试剂盒具有明显的优势</p>
+                <p>与柱式抽提试剂盒相比，基因组完整性更好，并杜绝了吸附柱堵塞等现象</p>
+                <p>可与国内外各类自动化核酸纯化平台配合使用，实现核酸提取自动化</p>
+                <p>最快30 分钟完成全部实验</p>
+                <p>获得的DNA OD260/280 均在 1.7~1.9</p>
+                <p>不使用有毒的苯酚等试剂，不需要乙醇沉淀等步骤</p>
+                <h4>基本流程</h4>
+                <img src="images/pro_details_02.jpg">
+            </div>
+            <img src="images/pro_details_01.jpg" class="pic">
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><img src="images/index_07.jpg"></a></li>
+                <li><a href="#"><img src="images/index_08.jpg"></a></li>
+                <li><a href="#"><img src="images/index_09.jpg"></a></li>
+                <li><a href="#"><img src="images/index_10.jpg"></a></li>
+            </ul>
+            <p>康威生物科技（上海）股份有限公司 版权所有 </p>
+            <p>沪ICP备07025263 kangwei Bioengineering  (Shanghai) Co., Ltd.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

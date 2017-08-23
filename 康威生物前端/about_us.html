@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/abouot_us.css">
+    <title>关于我们</title>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" class="pic"><img src="images/logo.png"></a>
+            <div class="text">
+                <h3><a href="index.html">康威生物工程</a></h3>
+                <p><a href="index.html">kangwei Bioengineering</a></p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li class="current"><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                    <li><img src="images/banner01.jpg"></li>
+                    <li><img src="images/banner02.jpg"></li>
+                    <li><img src="images/banner03.jpg"></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <ul class="hd">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+    </script>
+
+</div>
+
+<div class="middle">
+    <div class="container">
+        <div class="title">
+            <h3>关于我们</h3>
+        </div>
+        <div class="sidebar">
+            <h3>企业介绍</h3>
+            <ul>
+                <li class="current"><a href="about_us.html">关于我们</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">公司荣誉</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <h3>公司介绍</h3>
+            <p>生工生物工程上海（股份）有限公司（简称：生工生物）成立于2003年。自成立以来，生工生物始终致力于提供生命科学产品与技术服务，十一年来，生工生物与中国的生命科学事业共同发展， 我们的产品质量愈来愈好，种类愈来愈丰富，我们的产品价格却始终只有进口品牌价格的1/3不到，低于国内大部分同行。我们为广大研发人员提供了高性价比的生命科学实验解决方案，为中国的生命科学事业做出了自己的贡献。今天，中国的生命科学企业如雨后春笋般茁壮成长起来，形成百花争放的良好形势，生工生物不满足于现状，希望走出中国，走向世界，把生工生物建设成为一家国际化、全球化的世界级生命科学企业。</p>
+            <h3>香港联交所上市公司</h3>
+            <p>2014年12月30日，BBI生命科学有限公司（BBI Life Science Corporation, 01035,HK），正式在香港联交所主板挂牌上市。BBI生命科学有限公司是生工生物工程（上海）股份有限公司及其附属公司的控股公司。</p>
+            <h3>产品与技术服务</h3>
+            <p>2生工生物提供7大类近万种生命科学产品，8条生命科学实验技术服务。应用领域涵盖分子生物学、细胞生物学、蛋白质组学、免疫学、表观遗传学、动物学、植物学、农学、化学、转化医学等各个方向。我们拥有南北两地数千平方米的仓储中心，常备现货库存达近万种。</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><img src="images/index_07.jpg"></a></li>
+                <li><a href="#"><img src="images/index_08.jpg"></a></li>
+                <li><a href="#"><img src="images/index_09.jpg"></a></li>
+                <li><a href="#"><img src="images/index_10.jpg"></a></li>
+            </ul>
+            <p>康威生物科技（上海）股份有限公司 版权所有 </p>
+            <p>沪ICP备07025263 kangwei Bioengineering  (Shanghai) Co., Ltd.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

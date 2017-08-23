@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>首页</title>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" class="pic"><img src="images/logo.png"></a>
+            <div class="text">
+                <h3><a href="index.html">康威生物工程</a></h3>
+                <p><a href="index.html">kangwei Bioengineering</a></p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="current"><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                    <li><img src="images/banner01.jpg"></li>
+                    <li><img src="images/banner02.jpg"></li>
+                    <li><img src="images/banner03.jpg"></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <ul class="hd">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+    </script>
+</div>
+
+<div class="middle">
+    <div class="container">
+        <div class="news">
+            <div class="title">
+                <h3>新闻中心</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="news_details.html"><img src="images/index_01.png"></a>
+                    <h3><a href="news_details.html">原核蛋白表达系统</a></h3>
+                    <p>2017/6/12</p>
+                    <p>金斯瑞自主开发的BacPowerTM 技术，通过对表达体系进行优化，如表达载体与表达菌株相容性的测试、诱导表达条件的优化、复性等，可极大程度的解决蛋白难以表达和表达的蛋白不溶等难题。</p>
+                </li>
+                <li>
+                    <a href="news_details.html"><img src="images/index_02.png"></a>
+                    <h3><a href="news_details.html">基因定点突变</a></h3>
+                    <p>2017/6/12</p>
+                    <p>在很多情况下，您获得的基因序列可能并不是您需要的最终序列，或许在某些地方有部分碱基不符合您的实验要求。比如有部分多余的碱基，或者丢失了部分碱基，或者个别碱基有突变，这些我们姑且都认为它是基因突变。那么要得到最终符合要求的序列，便需要对其进行修改。</p>
+                </li>
+                <li>
+                    <a href="news_details.html"><img src="images/index_03.png"></a>
+                    <h3><a href="news_details.html">基因芯片</a></h3>
+                    <p>2017/6/12</p>
+                    <p>生工生物具有多年基因芯片服务经验，已建立了Illumina芯片、Agilent芯片、Affymetrix芯片等基因芯片技术服务平台，已为国内外数千家科研单位和企业提供技术服务和技术支撑。</p>
+                </li>
+            </ul>
+            <a href="news.html" class="more">查看更多</a>
+        </div>
+        <div class="product">
+            <div class="title">
+                <h3>产品中心</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="pro_details.html"><img src="images/index_04.jpg"></a>
+                    <h3><a href="pro_details.html">ExpressPlus™ 蛋白胶</a></h3>
+                    <p>2017/6/12</p>
+                    <p>金斯瑞ExpressPlus™蛋白预制胶是高性能的聚丙烯酰胺小型预制胶，专门为较大上样量而设计。其独一无二的胶板设计提供了更好的条带分辨率，并且显著提高了样品在上样孔里的分布状态，使得条带更加均匀。</p>
+                </li>
+                <li>
+                    <a href="pro_details.html"><img src="images/index_05.jpg"></a>
+                    <h3><a href="pro_details.html">内毒素检测试剂盒</a></h3>
+                    <p>2017/6/12</p>
+                    <p>内毒素是革兰氏阴性菌细胞壁的一部分，是生物制品一个重要的污染物，可在宿主体内导致气相反应，如内毒素休克、组织损伤甚至死亡。FDA要求所有药物的最终配方必须进行内毒素检测。</p>
+                </li>
+                <li>
+                    <a href="pro_details.html"><img src="images/index_06.jpg"></a>
+                    <h3><a href="pro_details.html">SDS-PAGE凝胶预混液</a></h3>
+                    <p>2017/6/12</p>
+                    <p>SDS-PAGE凝胶预混液（单一浓度）为即用液， 用户只需要准备实验室级别蒸馏水（推荐使用双蒸水），以及制胶器具即可直接快速配制6%、8%、10%、12%、15%的分离胶、5%的浓缩胶，进行蛋白电泳实验。</p>
+                </li>
+            </ul>
+            <a href="product.html" class="more">查看更多</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><img src="images/index_07.jpg"></a></li>
+                <li><a href="#"><img src="images/index_08.jpg"></a></li>
+                <li><a href="#"><img src="images/index_09.jpg"></a></li>
+                <li><a href="#"><img src="images/index_10.jpg"></a></li>
+            </ul>
+            <p>康威生物科技（上海）股份有限公司 版权所有 </p>
+            <p>沪ICP备07025263 kangwei Bioengineering  (Shanghai) Co., Ltd.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

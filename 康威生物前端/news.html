@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <title>新闻中心</title>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" class="pic"><img src="images/logo.png"></a>
+            <div class="text">
+                <h3><a href="index.html">康威生物工程</a></h3>
+                <p><a href="index.html">kangwei Bioengineering</a></p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li class="current"><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="focusBox" style="margin:0 auto">
+            <ul class="pic">
+                    <li><img src="images/banner01.jpg"></li>
+                    <li><img src="images/banner02.jpg"></li>
+                    <li><img src="images/banner03.jpg"></li>
+            </ul>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <ul class="hd">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+    </script>
+</div>
+
+<div class="middle">
+    <div class="container">
+        <div class="title">
+            <h3>新闻中心</h3>
+        </div>
+        <div class="sidebar">
+            <h3>新闻中心</h3>
+            <ul>
+                <li class="current"><a href="about_us.html">新闻焦点</a></li>
+                <li><a href="#">事实新闻</a></li>
+                <li><a href="#">新闻追击</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="list">
+                <li class="rounded">
+                    <a href="news_details.html"><img src="images/news_01.jpg"></a>
+                    <div class="details">
+                        <span>2017-6-9</span>
+                        <h3><a href="news_details.html">Simple Western实验服务</a></h3>
+                        <p>本手册对Simple Western做了详细介绍，包括简介，工作原理，操作流程，常见问题及生工Simple Western服务流程。</p>
+                        <a href="news_details.html" class="more">查看更多...</a>
+                    </div>
+                </li>
+                <li class="rounded">
+                    <a href="news_details.html"><img src="images/news_02.jpg"></a>
+                    <div class="details">
+                        <span>2017-6-9</span>
+                        <h3><a href="news_details.html">质量检测报告（COA）声明</a></h3>
+                        <p>为了让质检报告更加规范，更符合行业及国际的标准，生工生物近期对ERP系统的QM模块进行了升级，并对系统内置的质检报告单格式进行了调整，我们将自2017年4月1日开始正式实行最新版的质检报告格式。</p>
+                        <a href="news_details.html" class="more">查看更多...</a>
+                    </div>
+                </li>
+                <li class="rounded">
+                    <a href="news_details.html"><img src="images/news_03.jpg"></a>
+                    <div class="details">
+                        <span>2017-6-9</span>
+                        <h3><a href="news_details.html">Pull Down Assay</a></h3>
+                        <p>利用GST融合蛋白沉降技术，将靶蛋白与GST标签蛋白进行融合表达，纯化获取融合表达蛋白。靶蛋白-GST融合蛋白亲和固化在谷胱甘肽亲和树脂上，作为与目的反比亲和的支撑物，充当诱饵蛋白，目的蛋白溶液过柱纯化，即可捕获与之相互作用的俘获蛋白，洗脱结合物</p>
+                        <a href="news_details.html" class="more">查看更多...</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="page">
+                <ul>
+                    <li><a href="#">上一页</a></li>
+                    <li class="current"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><span>·&nbsp;·&nbsp;·</span></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about_us.html">企业介绍</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="product.html">产品中心</a></li>
+                <li><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><img src="images/index_07.jpg"></a></li>
+                <li><a href="#"><img src="images/index_08.jpg"></a></li>
+                <li><a href="#"><img src="images/index_09.jpg"></a></li>
+                <li><a href="#"><img src="images/index_10.jpg"></a></li>
+            </ul>
+            <p>康威生物科技（上海）股份有限公司 版权所有 </p>
+            <p>沪ICP备07025263 kangwei Bioengineering  (Shanghai) Co., Ltd.</p>
+        </div>
+    </div>
+</div>
+
+<!--[if lt IE 10]>
+        <script type="text/javascript" src="js/PIE.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(function() {
+            if (window.PIE) {
+                $('.rounded').each(function() {
+                PIE.attach(this);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
